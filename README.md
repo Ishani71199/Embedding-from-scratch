@@ -16,7 +16,7 @@ Contrastive Learning is a self-supervised or supervised learning technique where
 - Visualizes embeddings and compares Euclidean distances to verify learning.
 
 ## 🧪 Dataset
-- [MNIST](http://yann.lecun.com/exdb/mnist/): Handwritten digit dataset.
+- MNIST: Handwritten digit dataset.
 - Contains 60,000 training and 10,000 test grayscale images of size 28x28 pixels.
 
 ## 🚀 How It Works
@@ -32,8 +32,8 @@ Contrastive Learning is a self-supervised or supervised learning technique where
 
 ### 3. Evaluation
 - After training, embeddings for different digits are compared.
-- Small distance ⇒ Same digit (similar)
-- Large distance ⇒ Different digit (dissimilar)
+- Small distance => Same digit (similar)
+- Large distance => Different digit (dissimilar)
 
 ## Install dependencies using:
 pip install tensorflow numpy matplotlib
